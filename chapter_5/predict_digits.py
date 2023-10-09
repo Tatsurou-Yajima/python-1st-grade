@@ -2,9 +2,6 @@ import sklearn.datasets
 import sklearn.svm
 import PIL.Image
 import numpy as np
-import os
-
-
 
 def imageToData(filename):
     grayImage = PIL.Image.open(filename).convert("L")
